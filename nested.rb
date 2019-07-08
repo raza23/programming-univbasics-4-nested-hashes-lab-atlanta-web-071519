@@ -126,5 +126,5 @@ def adding_to_dennis
         }
      }
 
-return programmer_hash[:dennis_ritchie][:languages].unshift( "Assembly")
+return programmer_hash["dennis_ritchie"]["languages"].unshift( "Assembly")
 end
