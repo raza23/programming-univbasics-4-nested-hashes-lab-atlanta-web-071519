@@ -62,8 +62,8 @@ return programmer_hash[:dennis_ritchie][:languages]
 end
 
 def adding_matz
-# add the following information to the top level of
-programmer_hash =
+# add the following information to the top level of 
+programmer_hash1 =
  :yukihiro_matsumoto => {
    :known_for => "Ruby",
     :languages => ["LISP", "C"]
@@ -84,7 +84,7 @@ programmer_hash =
           :languages => ["C"]
         }
      }
-
+return programmer_hash1.merge(programmer_hash)
 end
 
 def changing_alan
